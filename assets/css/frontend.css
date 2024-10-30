@@ -1,0 +1,48 @@
+:root {
+  --CNS-primary-bg: #e3ffed;
+  --CNS-primary-text: #00080c;
+  --CNS-primary-anchor-color: #104222;
+  --CNS-btn-font-size: 18px;
+  --CNS-btn-color: #1af0f08a;
+}
+
+/* Commone */
+.notiny-base {
+  height: 80px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.notiny-base .notiny-img {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #10422229;
+  width: 70px;
+  height: 70px;
+}
+
+.notiny-base .notiny-text {
+  font-size: 12px;
+  color: var(--CNS-primary-text);
+}
+
+.notiny-base .notiny-text .cns_close{
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+
+.notiny-base .notiny-text .cns_close svg{
+  fill: var(--CNS-primary-text);
+}
+
+.notiny-base .notiny-text h2 {
+  color: var(--CNS-primary-text);
+}
+
+/* Notify section */
+.notify-theme-CNS-dark {
+  background-color: var(--CNS-primary-bg);
+  /* color: var(--CNS-primary-text); */
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mhemelhasan/hemelhasan-plugin",
+  "description": "Woocommerce peroduct cart notification",
+  "type": "wordpress-plugin",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "M Hemel Hasan",
+      "email": "hemelsrgmts@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "appsero/client": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cart\\notify\\": "includes/"
+    },
+    "files": []
+  }
+}
